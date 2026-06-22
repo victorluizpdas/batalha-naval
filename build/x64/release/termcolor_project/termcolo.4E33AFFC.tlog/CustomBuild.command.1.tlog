@@ -1,0 +1,134 @@
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/tmp/termcolor_project-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\Victor\Desktop\batalha naval\build\termcolor_project-prefix\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/tmp/termcolor_project-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-UPDATE.RULE
+setlocal
+cd "C:\Users\Victor\Desktop\batalha naval\build\termcolor_project-prefix\src\termcolor_project"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/tmp/termcolor_project-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-CONFIGURE.RULE
+setlocal
+cd "C:\Users\Victor\Desktop\batalha naval\build\termcolor_project-prefix\src\termcolor_project-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-BUILD.RULE
+setlocal
+cd "C:\Users\Victor\Desktop\batalha naval\build\termcolor_project-prefix\src\termcolor_project-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\8D843761ABC35E890A1C10FC55F4E506\TERMCOLOR_PROJECT-INSTALL.RULE
+setlocal
+cd "C:\Users\Victor\Desktop\batalha naval\build\termcolor_project-prefix\src\termcolor_project-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\647FF4404ED35F1DF313029560360C1D\TERMCOLOR_PROJECT-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/Release"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/Release/termcolor_project-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Victor/Desktop/batalha naval/build/termcolor_project-prefix/src/termcolor_project-stamp/Release/termcolor_project-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\BUILD\CMAKEFILES\6960B03CED01964FE86B60ACB5930B64\TERMCOLOR_PROJECT.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VICTOR\DESKTOP\BATALHA NAVAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Victor/Desktop/batalha naval" "-BC:/Users/Victor/Desktop/batalha naval/build" --check-stamp-file "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

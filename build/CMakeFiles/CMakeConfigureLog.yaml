@@ -1,0 +1,1385 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
+      Compila├º├úo de 19/06/2026 14:48:15 iniciada.
+      
+      Projeto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.70
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Vim/vim92/lld-link.com"
+      - "C:/Program Files/Vim/vim92/lld-link.exe"
+      - "C:/Program Files/Vim/vim92/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/opencv/build/x64/vc16/bin/lld-link.com"
+      - "C:/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "C:/opencv/build/x64/vc16/bin/lld-link"
+      - "C:/opencv/build/x64/vc16/lib/lld-link.com"
+      - "C:/opencv/build/x64/vc16/lib/lld-link.exe"
+      - "C:/opencv/build/x64/vc16/lib/lld-link"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link"
+      - "C:/Users/Victor/.dotnet/tools/lld-link.com"
+      - "C:/Users/Victor/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Victor/.dotnet/tools/lld-link"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.com"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Program Files/Vim/vim92/mt.com"
+      - "C:/Program Files/Vim/vim92/mt.exe"
+      - "C:/Program Files/Vim/vim92/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/opencv/build/x64/vc16/bin/mt.com"
+      - "C:/opencv/build/x64/vc16/bin/mt.exe"
+      - "C:/opencv/build/x64/vc16/bin/mt"
+      - "C:/opencv/build/x64/vc16/lib/mt.com"
+      - "C:/opencv/build/x64/vc16/lib/mt.exe"
+      - "C:/opencv/build/x64/vc16/lib/mt"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/mt.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/mt.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/mt"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/mt.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/mt.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/mt"
+      - "C:/Users/Victor/.dotnet/tools/mt.com"
+      - "C:/Users/Victor/.dotnet/tools/mt.exe"
+      - "C:/Users/Victor/.dotnet/tools/mt"
+      - "C:/Users/Victor/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/mt"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/mt.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/mt.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
+      Compila├º├úo de 19/06/2026 14:48:16 iniciada.
+      
+      Projeto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.73
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Vim/vim92/lld-link.com"
+      - "C:/Program Files/Vim/vim92/lld-link.exe"
+      - "C:/Program Files/Vim/vim92/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/opencv/build/x64/vc16/bin/lld-link.com"
+      - "C:/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "C:/opencv/build/x64/vc16/bin/lld-link"
+      - "C:/opencv/build/x64/vc16/lib/lld-link.com"
+      - "C:/opencv/build/x64/vc16/lib/lld-link.exe"
+      - "C:/opencv/build/x64/vc16/lib/lld-link"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/lld-link"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/lld-link"
+      - "C:/Users/Victor/.dotnet/tools/lld-link.com"
+      - "C:/Users/Victor/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Victor/.dotnet/tools/lld-link"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/"
+      - "C:/Program Files (x86)/BatalhaNaval/"
+    searched_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/rc.com"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Program Files/Vim/vim92/rc.com"
+      - "C:/Program Files/Vim/vim92/rc.exe"
+      - "C:/Program Files/Vim/vim92/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/opencv/build/x64/vc16/bin/rc.com"
+      - "C:/opencv/build/x64/vc16/bin/rc.exe"
+      - "C:/opencv/build/x64/vc16/bin/rc"
+      - "C:/opencv/build/x64/vc16/lib/rc.com"
+      - "C:/opencv/build/x64/vc16/lib/rc.exe"
+      - "C:/opencv/build/x64/vc16/lib/rc"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/rc.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/rc.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/rc"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/rc.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/rc.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/rc"
+      - "C:/Users/Victor/.dotnet/tools/rc.com"
+      - "C:/Users/Victor/.dotnet/tools/rc.exe"
+      - "C:/Users/Victor/.dotnet/tools/rc"
+      - "C:/Users/Victor/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/rc"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/rc.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/rc.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/rc.com"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/rc.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/rc"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/rc.com"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/rc.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/rc"
+      - "C:/Program Files (x86)/BatalhaNaval/rc.com"
+      - "C:/Program Files (x86)/BatalhaNaval/rc.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/BatalhaNaval"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/BatalhaNaval"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-wo3h3o"
+      binary: "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-wo3h3o"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-wo3h3o'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_47cea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
+        Compila├º├úo de 19/06/2026 14:48:17 iniciada.
+        
+        Projeto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wo3h3o\\cmTC_47cea.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wo3h3o\\Debug\\".
+          Criando o diret├│rio "cmTC_47cea.dir\\Debug\\cmTC_47cea.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_47cea.dir\\Debug\\cmTC_47cea.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_47cea.dir\\Debug\\cmTC_47cea.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47cea.dir\\Debug\\\\" /Fd"cmTC_47cea.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35725 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47cea.dir\\Debug\\\\" /Fd"cmTC_47cea.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wo3h3o\\Debug\\cmTC_47cea.exe" /INCREMENTAL /ILK:"cmTC_47cea.dir\\Debug\\cmTC_47cea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-wo3h3o/Debug/cmTC_47cea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-wo3h3o/Debug/cmTC_47cea.lib" /MACHINE:X64  /machine:x64 cmTC_47cea.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_47cea.vcxproj -> C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wo3h3o\\Debug\\cmTC_47cea.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_47cea.dir\\Debug\\cmTC_47cea.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_47cea.dir\\Debug\\cmTC_47cea.tlog\\cmTC_47cea.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wo3h3o\\cmTC_47cea.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.66
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-z1zt94"
+      binary: "C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-z1zt94"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-z1zt94'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45c3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Vers├úo do MSBuild 18.3.0-release-26070-10+3972042b7 para .NET Framework
+        Compila├º├úo de 19/06/2026 14:48:18 iniciada.
+        
+        Projeto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1zt94\\cmTC_45c3a.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1zt94\\Debug\\".
+          Criando o diret├│rio "cmTC_45c3a.dir\\Debug\\cmTC_45c3a.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_45c3a.dir\\Debug\\cmTC_45c3a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_45c3a.dir\\Debug\\cmTC_45c3a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_45c3a.dir\\Debug\\\\" /Fd"cmTC_45c3a.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.50.35725 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_45c3a.dir\\Debug\\\\" /Fd"cmTC_45c3a.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1zt94\\Debug\\cmTC_45c3a.exe" /INCREMENTAL /ILK:"cmTC_45c3a.dir\\Debug\\cmTC_45c3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-z1zt94/Debug/cmTC_45c3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/CMakeScratch/TryCompile-z1zt94/Debug/cmTC_45c3a.lib" /MACHINE:X64  /machine:x64 cmTC_45c3a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_45c3a.vcxproj -> C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1zt94\\Debug\\cmTC_45c3a.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_45c3a.dir\\Debug\\cmTC_45c3a.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_45c3a.dir\\Debug\\cmTC_45c3a.tlog\\cmTC_45c3a.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Victor\\Desktop\\batalha naval\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1zt94\\cmTC_45c3a.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake:926 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/ExternalProject.cmake:3258 (_ep_add_download_command)"
+      - "CMakeLists.txt:6 (ExternalProject_Add)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vim/vim92/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/opencv/build/x64/vc16/bin/"
+      - "C:/opencv/build/x64/vc16/lib/"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/"
+      - "C:/Users/Victor/.dotnet/tools/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/"
+      - "C:/Program Files (x86)/BatalhaNaval/"
+      - "C:/Users/Victor/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd.com"
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/Vim/vim92/git.cmd.com"
+      - "C:/Program Files/Vim/vim92/git.cmd.exe"
+      - "C:/Program Files/Vim/vim92/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/opencv/build/x64/vc16/bin/git.cmd.com"
+      - "C:/opencv/build/x64/vc16/bin/git.cmd.exe"
+      - "C:/opencv/build/x64/vc16/bin/git.cmd"
+      - "C:/opencv/build/x64/vc16/lib/git.cmd.com"
+      - "C:/opencv/build/x64/vc16/lib/git.cmd.exe"
+      - "C:/opencv/build/x64/vc16/lib/git.cmd"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Victor/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Victor/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/git.cmd.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/git.cmd.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/bin/git.cmd"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/git.cmd.com"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/git.cmd.exe"
+      - "C:/Users/Victor/.pyenv/pyenv-win/shims/git.cmd"
+      - "C:/Users/Victor/.dotnet/tools/git.cmd.com"
+      - "C:/Users/Victor/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/Victor/.dotnet/tools/git.cmd"
+      - "C:/Users/Victor/AppData/Local/Python/bin/git.cmd.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/git.cmd.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/git.cmd"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/git.cmd.com"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/git.cmd.exe"
+      - "C:/Users/Victor/AppData/Local/Python/bin/pip.exe/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/git.cmd.com"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/bin/git.cmd"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/sbin/git.cmd"
+      - "C:/Program Files (x86)/BatalhaNaval/git.cmd.com"
+      - "C:/Program Files (x86)/BatalhaNaval/git.cmd.exe"
+      - "C:/Program Files (x86)/BatalhaNaval/git.cmd"
+      - "C:/Users/Victor/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Victor/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Victor/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/ProgramData/Oracle/Java/javapath/git.com"
+      - "C:/ProgramData/Oracle/Java/javapath/git.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Vim\\vim92"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\opencv\\build\\x64\\vc16\\lib"
+        - "C:\\Users\\Victor\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Victor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\Victor\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\Victor\\.dotnet\\tools"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Victor\\AppData\\Local\\Python\\bin\\pip.exe"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/BatalhaNaval"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/BatalhaNaval"
+...

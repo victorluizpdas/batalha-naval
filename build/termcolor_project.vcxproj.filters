@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\8d843761abc35e890a1c10fc55f4e506\termcolor_project-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\647ff4404ed35f1df313029560360c1d\termcolor_project-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\6960b03ced01964fe86b60acb5930b64\termcolor_project.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Victor\Desktop\batalha naval\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Victor\Desktop\batalha naval\build\CMakeFiles\termcolor_project" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D3F9ECED-B848-3AF9-9DE0-BB0B129A66A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

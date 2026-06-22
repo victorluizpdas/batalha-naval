@@ -1,0 +1,4 @@
+C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/termcolor_project.dir
+C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/BatalhaNaval.dir
+C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Victor/Desktop/batalha naval/build/CMakeFiles/ZERO_CHECK.dir
