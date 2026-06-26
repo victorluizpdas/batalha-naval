@@ -19,12 +19,12 @@ void putShip(char ship, vector<vector<char>>& YourTable){
 
     while(!valido){
 
-    cout << termcolor::white<< "\nEscolha a coluna, linha e orientacao de sua embarcacao:\nColuna: ";
+    cout << termcolor::white<< "\nEscolha a coluna, linha e orientacao de sua embarcacao:\nColuna [a-t]: ";
 
     cin >> x;
     coluna = toupper(x) - 'A';
 
-    cout << "\nLinha: ";
+    cout << "\nLinha [0-19]: ";
     cin >> linha;
 
     cout << "\nOrientacao \n|1 - Horizontal ||2 - Vertical|: ";
@@ -34,6 +34,9 @@ void putShip(char ship, vector<vector<char>>& YourTable){
     valido = true;
 
     if(coluna < 0 || coluna >= 20 || linha < 0 || linha >= 20 || orientacao < 1 || orientacao > 2){
+        coluna = 0;
+        linha = 0;
+        orientacao = 0;
         valido = false;
     }
 
@@ -77,8 +80,8 @@ void putShip(char ship, vector<vector<char>>& YourTable){
 }
 
 void putEnemyShip(vector<vector<char>>& EnemyTable, map<char, int>& EnemyShips){
-
-    switch(rand() % 10){
+    int x = rand() % 10;
+    switch(x){
 
     case 0:
 
@@ -415,11 +418,11 @@ void jogada(vector<vector<char>>& EnemyTable, vector<vector<bool>>& EnemyTableHi
     bool valido = false;
 
     while(!valido){
-        cout<<termcolor::white<<termcolor::on_grey<<"\nDIGITE SUA JOGADA:\nColuna: ";
+        cout<<termcolor::white<<termcolor::on_grey<<"\nDIGITE SUA JOGADA:\nColuna [a-t]: ";
         cin>>x;
         x = toupper(x);
         coluna = x -'A';
-        cout<<termcolor::white<<termcolor::on_grey<<"\nLinha: ";
+        cout<<termcolor::white<<termcolor::on_grey<<"\nLinha [0-19]: ";
         cin>>linha;
 
         cout<<"\nESCOLHA A MUNICAO\n|1 - NORMAL ||2 - ESPECIALIZADA EM SUBMARINOS|\n";
@@ -438,7 +441,7 @@ void jogada(vector<vector<char>>& EnemyTable, vector<vector<bool>>& EnemyTableHi
     }
     if(EnemyTable[linha][coluna] == '~'){
         cout<<termcolor::bright_red<<"\nERROU\n";
-        EnemyTable[linha][coluna] = true;
+        EnemyTableHits[linha][coluna] = true;
 
     }else{
     if(municao == 1){
@@ -481,7 +484,7 @@ void jogadaEnemy(vector<vector<char>>& EnemyTable, vector<vector<bool>>& EnemyTa
             
     if(EnemyTable[linha][coluna] == '~'){
         cout<<termcolor::green<<"\nINIMIGOP ERROU\n";
-        EnemyTable[linha][coluna] = true;
+        EnemyTableHits[linha][coluna] = true;
     }else{
     if(municao == 1){
         if(EnemyTable[linha][coluna] != 'S'){
@@ -504,8 +507,9 @@ void jogadaEnemy(vector<vector<char>>& EnemyTable, vector<vector<bool>>& EnemyTa
 
 int main(){
     srand(time(nullptr));
+
     vector<vector<char>> EnemyTable(20, vector<char>(20, '~')) , YourTable(20, vector<char>(20, '~'));
-    vector<vector<bool>> EnemyTableHits(20, vector<bool>(20, 0)), YourTableHits(20, vector<bool>(20, 0));
+    vector<vector<bool>> EnemyTableHits(20, vector<bool>(20, 0)), YourTableHits(20, vector<bool>(20, 0)), trueHits(20, vector<bool>(20, 1));
     map<char, int> YourShips = {{'C', 0} , {'F', 0}, {'D', 0}, {'M', 0}, {'P',0}, {'S',0}} , EnemyShips = {{'C', 0} , {'F', 0}, {'D', 0}, {'M', 0}, {'P',0}, {'S', 0}},
     tamanhos = {{'C', 3} , {'F', 4}, {'D', 5}, {'M', 12}, {'P',16}, {'S',6}};
     int pontos = 30;
@@ -528,29 +532,34 @@ int main(){
     }
     cout<<termcolor::on_grey<<termcolor::white;
     putEnemyShip(EnemyTable, EnemyShips);
-    cout<<termcolor::on_grey<<termcolor::white;
+    cout<<termcolor::on_grey<<termcolor::white<<"\nQUE INICIEM OS JOGOS!!!\n";
 
 
     while(sumships(YourShips) && sumships(EnemyShips)){
 
     jogada(EnemyTable, EnemyTableHits, EnemyShips);
+
     if(!sumships(EnemyShips)){
         break;
-    }
-    jogadaEnemy(YourTable, YourTableHits, YourShips);
+    }else{
+         cout<<endl<<termcolor::on_bright_red<<termcolor::bright_white<<"JOGADA INIMIGA CHEGANDO\n";
+         cout<<endl<<termcolor::bright_red<<termcolor::on_white;
 
-    showTable( EnemyTable,   YourTable,   EnemyTableHits,  YourTableHits);
+        jogadaEnemy(YourTable, YourTableHits, YourShips);
+
+        Sleep(500);
+
+        showTable( EnemyTable,   YourTable,   EnemyTableHits,  YourTableHits);
+
     }
 
+   
+    }
+    showTable( EnemyTable,   YourTable,   trueHits,  YourTableHits);
     if(!sumships(EnemyShips)){
         cout<<endl<<termcolor::on_bright_green<<termcolor::bright_white<<"VOCE GANHOU UM PREMIO DE 10 MIL MILHOES";
     }else{
          cout<<endl<<termcolor::on_bright_red<<termcolor::bright_white<<"VOCE PERDEU UM PREMIO DE 10 MIL MILHOES";
     }
-
-
-    
- 
-
 }
 
